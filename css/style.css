@@ -299,12 +299,26 @@ background-color:#fff;
     height: 153px;
     margin-left: 80px;
 }
+.logo-footer{
+    display: contents;
+}
 .contacts-deco{
-    background-image: ;
+    width: 269px;
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.contacts-line{
+    width: 194px;
+        background-image: url(../images/line2.png);
+        background-repeat: no-repeat;
+        background-position: center;
 }
 .contacts-item{
     display: flex;
-    
+    width: 690px;
+    column-gap: 20px;
 }
 .contacts-text{
     font-family: var(--font-family);
