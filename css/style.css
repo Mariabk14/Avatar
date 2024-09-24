@@ -97,6 +97,12 @@ a{
         color: #fff;
         text-transform: uppercase;
 }
+.switcher-icon{
+    fill: #fff;
+}
+.switcher-icon:hover{
+    fill: #94CFFF;
+}
 /* Hero-Section */
 .hero-section{
     max-width: 1440px;
@@ -161,6 +167,12 @@ padding-bottom: 120px;
  flex-direction: column;
  row-gap: 25px;
 align-items: end;
+}
+.social-icon{
+    fill: #fff;
+}
+.social-icon:hover{
+ fill: #26c6ea;
 }
 /* Quotes-section */
 .quotes-section{
