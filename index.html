@@ -59,7 +59,7 @@
                 your body stays behind to
                 become part of the People.
                 Fight with us!</p>
-<button type="button" class="content-button">Join clan</button>
+<button type="button" class="content-button" data-modal-open>Join clan</button>
 </div>
 <ul class="socials-list">
     <li class="social-item">
@@ -169,5 +169,17 @@
         </div>
        </div>
     </footer>
+    <!-- Modal window markap -->
+    <div class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+                <svg width="14" height="14">
+                    <use href="./icons/symbol-defs.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js">
+    </script>
 </body>
 </html>

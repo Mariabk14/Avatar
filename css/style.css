@@ -359,3 +359,30 @@ background-color:#fff;
         color: #fff;
         margin-left: 474px;
 }
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: hsl(207, 100%, 79%);
+}
+.backdrop.is-hidden{
+opacity: 0;
+pointer-events: none;
+}
+.modal{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.close-btn{
+    position: absolute;
+    top: 15px;
+    right:15px;
+}
